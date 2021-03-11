@@ -1,17 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+ReactDOM.render( <App />, document.getElementById('root') );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+
+{/* < App /> 은 html 이 아니라 ✨component✨
+component 는 html 을 반환하는 함수
+jsx : JS를 확장한 문법, JS안의 html, JS의 모든 기능 포함 */}
+
